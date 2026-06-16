@@ -166,13 +166,3 @@ kubectl delete -f manifests/job.yaml
 - https://kubernetes.io/docs/
 
 ---
-
-## Author
-
-### Abhay Dandge
-
-LinkedIn:
-https://www.linkedin.com/in/abhaydandge/
-
-GitHub:
-https://github.com/abhay-dandge
