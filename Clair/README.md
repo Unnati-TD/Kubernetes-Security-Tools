@@ -124,6 +124,7 @@ clair-vulnerability-scanner-demo
 ```bash
 ./scripts/build-image.sh
 ```
+<img width="678" height="521" alt="image" src="https://github.com/user-attachments/assets/78a045b6-dc79-443a-a7bc-1ff56ff3408c" />
 
 ---
 
