@@ -1,4 +1,4 @@
-# Clair Vulnerability Scanner Demo
+# Clair Vulnerability Scanner Demo - ❌❌❌❌ Error ❌❌❌❌❌
 
 A DevSecOps project demonstrating container image vulnerability analysis using Clair.
 
