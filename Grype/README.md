@@ -39,6 +39,12 @@ GitHub Actions
 - Syft
 
 ---
+## First Steps
+```bash
+chmod +x scripts/scan.sh
+chmod +x scripts/generate-sbom.sh
+```
+
 
 ## Build Image
 
