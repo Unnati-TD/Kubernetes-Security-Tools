@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: clair
 
   clair:
-    image: quay.io/projectquay/clair:latest
+    image: quay.io/projectquay/clair:4.9.0
     ports:
       - "6060:6060"
     volumes:
