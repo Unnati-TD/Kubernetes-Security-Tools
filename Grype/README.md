@@ -61,6 +61,7 @@ chmod +x scripts/generate-sbom.sh
 ```bash
 docker build -t grype-demo:latest ./app
 ```
+<img width="823" height="530" alt="image" src="https://github.com/user-attachments/assets/daab87a4-54f5-40ab-b35f-1da5ea8c38af" />
 
 ## Scan Image
 
