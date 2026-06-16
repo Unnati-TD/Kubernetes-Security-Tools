@@ -176,13 +176,3 @@ Low Vulnerabilities: 18
 - https://docs.anchore.com/
 
 ---
-
-## Author
-
-Abhay Dandge
-
-LinkedIn:
-https://www.linkedin.com/in/abhaydandge/
-
-GitHub:
-https://github.com/abhay-dandge
