@@ -89,8 +89,4 @@ kubectl apply -f manifests/nginx-deployment.yaml
 - https://sysdig.com
 - https://docs.sysdig.com
 
----
 
-## Author
-
-Abhay Dandge
