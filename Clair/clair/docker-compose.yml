@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: clair
+      POSTGRES_PASSWORD: clair
+      POSTGRES_DB: clair
+
+  clair:
+    image: quay.io/projectquay/clair:latest
+    ports:
+      - "6060:6060"
+    volumes:
+      - ./config.yaml:/config/config.yaml
+    command: ["-conf", "/config/config.yaml"]
+    depends_on:
+      - postgres
