@@ -1,0 +1,33 @@
+name: Clair Security Scan
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+jobs:
+  vulnerability-scan:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: |
+          docker build \
+          -t clair-demo:${{ github.sha }} \
+          ./app
+
+      - name: Security Scan
+        run: |
+          echo "Clair scan would run here"
+
+      - name: Archive Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: clair-report
+          path: reports/
