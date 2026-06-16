@@ -115,12 +115,4 @@ kubectl logs -n falco -l app.kubernetes.io/name=falco
 
 ---
 
-## Author
 
-Abhay Dandge
-
-LinkedIn:
-https://www.linkedin.com/in/abhaydandge/
-
-GitHub:
-https://github.com/abhay-dandge
