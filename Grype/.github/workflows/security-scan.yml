@@ -1,0 +1,40 @@
+name: Security Scan
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      security-events: write
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: |
+          docker build \
+          -t grype-demo:${{ github.sha }} \
+          ./app
+
+      - name: Run Grype Scan
+        uses: anchore/scan-action@v6
+        with:
+          image: grype-demo:${{ github.sha }}
+          fail-build: true
+          severity-cutoff: high
+          output-format: sarif
+
+      - name: Upload SARIF Results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
