@@ -68,6 +68,7 @@ docker build -t grype-demo:latest ./app
 ```bash
 grype grype-demo:latest
 ```
+<img width="925" height="220" alt="image" src="https://github.com/user-attachments/assets/e4cddb18-7568-4af6-89f5-ea97e76804bb" />
 
 ## Generate SBOM
 
