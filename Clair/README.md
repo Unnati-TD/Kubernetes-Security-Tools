@@ -168,11 +168,3 @@ This repository includes automated vulnerability scanning for every push and pul
 - Container Security
 
 ---
-
-## Resume Bullet
-
-Developed a container security scanning solution using Clair for automated vulnerability detection in Docker images, integrating security checks into CI/CD workflows to identify and remediate vulnerable dependencies before deployment.
-
-## License
-
-MIT
