@@ -53,6 +53,7 @@ sudo mv ./bin/syft /usr/local/bin/
 chmod +x scripts/scan.sh
 chmod +x scripts/generate-sbom.sh
 ```
+<img width="631" height="67" alt="image" src="https://github.com/user-attachments/assets/f3e22d37-103c-4622-b247-232df5f285ec" />
 
 
 ## Build Image
