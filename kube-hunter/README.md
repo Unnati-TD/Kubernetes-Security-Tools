@@ -156,12 +156,3 @@ kubectl logs <pod-name>
 
 ---
 
-## Author
-
-Abhay Dandge
-
-LinkedIn:
-https://www.linkedin.com/in/abhaydandge/
-
-GitHub:
-https://github.com/abhay-dandge
