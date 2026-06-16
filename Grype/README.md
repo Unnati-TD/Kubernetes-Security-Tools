@@ -45,6 +45,8 @@ curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh
 sudo mv ./bin/syft /usr/local/bin/
 
 ```
+<img width="944" height="273" alt="image" src="https://github.com/user-attachments/assets/a9238f4e-60e7-42f7-8b51-babe1b399b9a" />
+
 ---
 ## First Steps
 ```bash
