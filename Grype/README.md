@@ -40,6 +40,9 @@ GitHub Actions
 ```bash
 curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh
 sudo mv ./bin/grype /usr/local/bin/
+curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh
+sudo mv ./bin/syft /usr/local/bin/
+
 ```
 ---
 ## First Steps
