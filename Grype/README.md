@@ -75,12 +75,14 @@ grype grype-demo:latest
 ```bash
 ./scripts/generate-sbom.sh
 ```
+<img width="921" height="180" alt="image" src="https://github.com/user-attachments/assets/4c2c0539-b034-4f30-8cd5-2ba0fc300d10" />
 
 ## Scan SBOM
 
 ```bash
 grype sbom:reports/sbom.json
 ```
+<img width="713" height="83" alt="image" src="https://github.com/user-attachments/assets/a130bfe9-071e-48ef-8d7e-e62cf0ee711c" />
 
 ---
 
