@@ -94,15 +94,6 @@ Verify:
 docker-compose --version
 ```
 
----
-
-### Clone Repository
-
-```bash
-git clone https://github.com/<username>/clair-vulnerability-scanner-demo.git
-
-cd clair-vulnerability-scanner-demo
-```
 
 ---
 
