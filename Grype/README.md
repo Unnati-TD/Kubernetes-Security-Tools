@@ -36,6 +36,7 @@ GitHub Actions
 
 - Docker
 - Grype
+- syft
 
 ```bash
 curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh
