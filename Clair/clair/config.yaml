@@ -1,0 +1,14 @@
+http_listen_addr: :6060
+
+indexer:
+  connstring: host=postgres port=5432 user=clair password=clair dbname=clair sslmode=disable
+
+matcher:
+  connstring: host=postgres port=5432 user=clair password=clair dbname=clair sslmode=disable
+
+updaters:
+  sets:
+    - alpine
+    - debian
+    - ubuntu
+    - redhat
